@@ -1,6 +1,5 @@
 class Song 
-  attr_accessible :name :artist :genre 
-  end
+  attr_accessor :name :artist :genre 
   
   @@song_count = 0 
   
