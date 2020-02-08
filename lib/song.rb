@@ -1,5 +1,7 @@
 class Song 
   attr_accessible :name :artist :genre 
+  end
+  
   @@song_count = 0 
   
   def initialize
@@ -9,8 +11,6 @@ class Song
   def self.count 
     @@song_count
   end 
-
-  @@genres = []
 
   self.genre_count
     @@genre_count = {}
