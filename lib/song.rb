@@ -1,6 +1,7 @@
 class Song 
   
   @@count = 0 
+  @@genres = []
   
   def initialize
     @@song_count += 1 
